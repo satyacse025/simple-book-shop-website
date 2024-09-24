@@ -4,6 +4,7 @@ import Faq from "../pages/Faq";
 import { ROUTES } from "../routes";
 import CommonLayout from "../layout/CommonLayout";
 import Homepage from "../pages/Homepage";
+import NotFound from "../components/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: `${ROUTES.SINGLE_BOOK.STATIC}`,
         element: <BookDetailsPage />,
+      },
+      {
+        path: `${ROUTES.Not_Found}`,
+        element: <NotFound />,
       },
     ],
   },

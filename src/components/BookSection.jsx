@@ -37,6 +37,8 @@ export default function BookSection() {
         </section>
 
       </div>
+      <br/>
     </div>
+   
   )
 }
